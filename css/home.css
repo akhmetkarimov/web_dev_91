@@ -1,0 +1,31 @@
+.home-content {
+    color: #fff;
+    margin-bottom: 10%;
+    line-height: 1.5;
+}
+
+.main-home {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.home-content h4 {
+    background-color: #c5a862;
+    width: fit-content;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.home-content h3 {
+    font-size: 60px;
+    font-weight: bold;
+    width: 60%;
+}
+
+.home-content p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}

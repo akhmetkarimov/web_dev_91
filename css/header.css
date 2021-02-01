@@ -1,0 +1,37 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* padding-top: 25px;
+    padding-bottom: 25px; */
+    height: 110px;
+
+    position: absolute;
+    /* width: 100%; */
+    right: 0;
+    left: 0;
+/* 
+    background-color: black;
+    opacity: .5; */
+}
+
+.navs a {
+    color: #fff;
+    text-transform: uppercase;
+    transition: .7s;
+    font-size: 14px;
+    font-size: bold;
+    margin-left: 20px;
+}
+
+.navs a:hover {
+   color: #c5a862;
+}
+
+
+.main-home {
+    background-image: url(../images/home-bg.jpg);
+    height: 90vh;
+}

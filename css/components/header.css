@@ -29,9 +29,3 @@
 .navs a:hover {
    color: #c5a862;
 }
-
-
-.main-home {
-    background-image: url(../images/home-bg.jpg);
-    height: 90vh;
-}

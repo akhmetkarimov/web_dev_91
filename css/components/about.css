@@ -1,0 +1,31 @@
+.main-about {
+    display: flex;
+    padding-left: 20%;
+    padding-right: 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-block {
+    width: 48%;
+    line-height: 1.5;
+}
+
+.block-img {
+    width: 100%;
+}
+
+.about-block h3 {
+    font-weight: bold;
+    font-size: 40px;
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+.about-block p {
+    font-weight: 500;
+    color: #333;
+    margin-top: 15px;
+    font-size: 18px;
+    width: 90%;
+}

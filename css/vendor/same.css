@@ -41,3 +41,7 @@
     border-color: #c5a862;
 }
 
+.section-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

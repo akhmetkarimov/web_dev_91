@@ -45,3 +45,19 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+.section-top p {
+    color: #c5a862;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.section-top h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.section-top {
+    margin-bottom: 20px;
+}

@@ -61,3 +61,27 @@
 .section-top {
     margin-bottom: 20px;
 }
+
+.section-top.center {
+    text-align: center;
+}
+
+.bg2 {
+    background-color: #f8f3e6;
+}
+
+
+.wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.template-item {
+    line-height: 1.5;
+    width: calc(100% / 4 - 2%);
+    width: 23%;
+    margin-bottom: 50px;
+}

@@ -29,3 +29,9 @@
 .navs a:hover {
    color: #c5a862;
 }
+
+.mobile-bar.fas {
+    font-size: 24px;
+    color: #fff;
+    display: none;
+}

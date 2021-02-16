@@ -1,0 +1,29 @@
+.service-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.service-item .image {
+    width: 100%;
+}
+
+.service-item .icon {
+    width: 30%;
+}
+
+.service-item .btn {
+    width: 100%;
+}
+
+
+.pricing-item {
+    width: calc(100% / 3 - 3%);
+}
+
+.line{
+    margin: auto;
+    width: 1px;
+    height: 300px;
+    background-color: #000;
+}

@@ -1,5 +1,6 @@
 .main-home {
     background-image: url(../../images/home-bg.jpg);
+    background-size: cover;
     height: 90vh;
 }
 

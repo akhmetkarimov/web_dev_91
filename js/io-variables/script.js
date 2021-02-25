@@ -79,3 +79,5 @@ document.write(`<p>8 % ${num1} = ${8 % num1}</p> <hr>`)
 
 document.write(`<p>Math.pow(3, 4) = ${Math.pow(3, 4)}</p>`)
 document.write(`<p>Math.sqrt(49) = ${Math.sqrt(49)}</p>`)
+
+console.log(Math)

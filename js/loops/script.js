@@ -80,3 +80,29 @@ for (let i = 0; i <= 24; i++) {
 
 document.write(`<p>Sum Even numbers: ${sumEven}</p>`)
 document.write(`<p>Sum Odd numbers: ${sumOdd}</p>`)
+
+
+// 2 Loops
+
+// for (let i = 0; i < 5; i++) {
+//     document.write(`<p>First: ${i}</p>`)
+//     for(let j = 0; j < 5; j++){
+//         document.write(`<p>Second: ${j}</p>`)
+//     }
+// }
+
+for (let i = 0; i < 4; i++) {
+    for (let j = 0; j < 4; j++) {
+        document.write('*')
+    }
+    document.write('<br>')
+}
+
+document.write('<hr>')
+
+for (let i = 1; i <= 4; i++) {
+    for (let j = 1; j <= i; j++) {
+        document.write('*')
+    }
+    document.write('<br>')
+}

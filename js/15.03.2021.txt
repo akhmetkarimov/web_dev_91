@@ -1,0 +1,15 @@
+18.03.2021: Object, Functions
+25.03.2021: Functions, 
+    DOM: 
+    GetElementById,
+    GetElementsByClassName, 
+    querySelector, 
+    querySelectorAll,
+    innerHTML, 
+    innerTEXT, 
+    style,
+    className, 
+    classList
+29.03.2021: DOM continue, ModalWindow
+01.04.2021: RGB range, TypeWriter
+05.04.2021: TypeWriter, Tabs

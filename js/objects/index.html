@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    
+    <style>
+        
+        .student-card {
+            width: 30%;
+            height: 300px;
+            border: 2px solid black;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .student-card > img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .info {
+
+            opacity: 0;
+            transition: .5s;
+            transform: scale(0);
+
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            color: #fff;
+            background-color: rgba(0,0,0,0.8);
+        }
+
+        .student-card:hover .info {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+
+    </style>
+
+    <script src="script.js"></script>
+</body>
+</html>

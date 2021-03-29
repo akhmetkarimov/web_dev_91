@@ -59,9 +59,9 @@
 //     тело
 // }
 
-for (let toy = 1; toy <= 8; toy += 1) {
-    document.write(`<p>Toy ${toy} moved</p>`)
-}
+// for (let toy = 1; toy <= 8; toy += 1) {
+//     document.write(`<p>Toy ${toy} moved</p>`)
+// }
 
 
 // 1) toy = 1
@@ -103,27 +103,27 @@ for (let toy = 1; toy <= 8; toy += 1) {
 // ES6
 // for of
 
-let products = [
-    'Milk',    //0
-    'Bananas', //1
-    'Bread',   //2
-    'Carrot',  //3
-    'Eggs'     //4
-]
+// let products = [
+//     'Milk',    //0
+//     'Bananas', //1
+//     'Bread',   //2
+//     'Carrot',  //3
+//     'Eggs'     //4
+// ]
 
 // index = 0; index < 5; index += 1
 
-for (let index = 0; index < products.length; index += 1) {
-    document.write(`<p>Product Item: ${products[index]}</p>`)
-}
+// for (let index = 0; index < products.length; index += 1) {
+//     document.write(`<p>Product Item: ${products[index]}</p>`)
+// }
 
-for (let index in products) {
-    document.write(`<p>(IN) Product Item: ${products[index]}</p>`)
-}
+// for (let index in products) {
+//     document.write(`<p>(IN) Product Item: ${products[index]}</p>`)
+// }
 
-for (let product of products) {
-    document.write(`<p>(OF) Product Item: ${product}</p>`)
-}
+// for (let product of products) {
+//     document.write(`<p>(OF) Product Item: ${product}</p>`)
+// }
 
 // 0: Milk
 // 1: Bananas
@@ -132,3 +132,33 @@ for (let product of products) {
 // for, for in: 0, 1, 2, 3, ....
 
 // for of: 'Milk', 'Bananas', 'Bread' ...
+
+// 1 1 = 2
+// 0 1 1 2 = 3
+// 0 1 1 2 3 = 5
+// 0 1 1 2 3 5 = 8
+
+
+let count = +prompt('Enter count of fib')
+
+let first = 1
+let second = 2
+let out = ''
+
+for(let i = 3; i <= count; i++) {
+    let temp = first 
+    first = second 
+    second = temp + second
+    out += ` ${second}`
+}
+
+document.write(`<p>1 2 ${out}</p>`)
+
+// [1 2] 3 5 8 13 21
+
+// 1 2 = 3
+// 2 3 = 5
+// 3 5 = 8
+// 5 8 = 13
+// 8 13 = 21
+// 13 21 = 34

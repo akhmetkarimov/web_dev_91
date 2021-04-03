@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Modal Window</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="modal">
+        <div class="modal-window">
+            <img src="" alt="img modal" id="modal-img" class="">
+            <button class="close-btn" onclick="toggleModal()">X</button>
+
+            <button class="dest-btn next" onclick="nextPrevImg(+1)">></button>
+            <button class="dest-btn prev" onclick="nextPrevImg(-1)"><</button>
+        </div>
+    </div>
+
+    <div id='all-imgs'>
+    </div>
+
+    <hr>
+
+    <div class="slider">
+        <img src="imgs/img1.jpeg" alt="" id="img-center">
+
+        <div id="all-slider">
+        </div>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="slider.js"></script>
+
+</body>
+</html>

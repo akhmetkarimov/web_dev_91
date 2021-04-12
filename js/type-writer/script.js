@@ -14,6 +14,10 @@ let wordIndex = 0
 // Количество букв или же идекс буквы выбранного слова
 let charIndex = 0
 
+// function stopTime() {
+//     console.log('1111')
+// }
+
 printWord()
 
 // Функция для вывода слова, функция будет работать пока слова не закончиться 
@@ -24,6 +28,7 @@ function printWord() {
         // Буквы печатаются со скоростью 1.5ms
         setTimeout(printWord, 150)
     } else {
+        // setTimeout(stopTime, 10000)
         setTimeout(deleteWord, 50)
     }
 }
